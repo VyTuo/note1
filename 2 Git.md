@@ -6,6 +6,12 @@
 
     1.  `$ ~` : 查看全局配置文件文字
 
+        1.  File: .gitconfig -> 配置信息
+
+        2.  File: .git-credentials -> 存储账号密码
+
+            1.  https://account:password@github.com
+
     2.  `$ git config --list` : 查看配置信息
 
     3.  `$ git config --list | grep credential` : 查看凭证（默认 `credential.helper=manager`）
